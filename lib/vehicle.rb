@@ -4,7 +4,7 @@ class Vehicle
   
   def initialize(wheel_size, wheel_number)
     @wheel_size = wheel_size
-    @number = number
+    @wheel_number = wheel_number
   end
   
   def wheel_size
@@ -12,7 +12,7 @@ class Vehicle
   end
   
   def wheel_number
-    @number
+    @wheel_number
   end
   
   def fill_up_tank
