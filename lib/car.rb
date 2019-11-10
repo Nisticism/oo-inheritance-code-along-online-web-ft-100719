@@ -9,17 +9,6 @@ class Car < Vehicle
     @number = number
   end
   
-  def wheel_size
-    @wheel_size
-  end
-  
-  def wheel_number
-    @number
-  end
-  
-  def fill_up_tank
-    "filling up!"
-  end
   
   def go 
     "VRRROOOOOOOOOOOOOOOOOOOOOOM!!!!!"
